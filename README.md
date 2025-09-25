@@ -33,15 +33,19 @@ Follow these steps to run the project locally:
    git clone https://github.com/Mahumood-Sameema/Healthccare_Project.git
 
 2. **Navigate to the project folder**
+    ```bash
     cd Healthccare_Project
 
 3. **Install dependencies**
+    ```bash
     npm install
 
 4. **Start the development server**
+    ```bash
     npm start
 
 5. **Open your browser at http://localhost:3000**
+
 
 ---
 
@@ -55,6 +59,7 @@ Healthcare_Project/
 │── public/
 │── package.json
 │── README.md
+
 
 ---
 
