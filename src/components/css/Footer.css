@@ -1,0 +1,60 @@
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-logo img {
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-logo p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.footer-nav {
+  margin: 20px 0;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact {
+  margin: 10px 0;
+}
+
+.contact-number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00bfff;
+}
+
+.footer-social {
+  margin: 15px 0;
+}
+
+.footer-social a img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+.footer-bottom {
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.8;
+}

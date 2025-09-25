@@ -1,0 +1,115 @@
+/* Settings.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Settings Container */
+.settings-container {
+  display: flex;
+  max-width: 1100px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Sidebar Navigation */
+.settings-sidebar {
+  width: 280px;
+  background: #007bff;
+  color: white;
+  padding: 20px;
+}
+
+.settings-sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 10px;
+}
+
+.settings-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.settings-sidebar ul li {
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out, padding-left 0.2s;
+  border-radius: 5px;
+}
+
+.settings-sidebar ul li:hover {
+  background: rgba(255, 255, 255, 0.2);
+  padding-left: 8px;
+}
+
+.settings-sidebar ul .active {
+  background: white;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Content Section */
+.settings-content {
+  flex-grow: 1;
+  padding: 30px;
+  background: #f9fbfd;
+}
+
+.settings-content h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+}
+
+/* Form Inputs */
+.settings-content label {
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #444;
+}
+
+.settings-content input, .settings-content select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.settings-content input:focus, .settings-content select:focus {
+  border: 1px solid #007bff;
+  outline: none;
+}
+
+/* Buttons */
+.settings-content button {
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.settings-content button:hover {
+  background: linear-gradient(135deg, #0056b3, #003d82);
+}
+
