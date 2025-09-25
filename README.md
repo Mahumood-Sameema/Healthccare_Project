@@ -43,6 +43,8 @@ Follow these steps to run the project locally:
 
 5. **Open your browser at http://localhost:3000**
 
+---
+
 ## 📂 Project Structure
 Healthcare_Project/
 │── src/
@@ -53,6 +55,8 @@ Healthcare_Project/
 │── public/
 │── package.json
 │── README.md
+
+---
 
 ## 📌 Future Improvements
 
