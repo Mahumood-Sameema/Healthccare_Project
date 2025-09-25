@@ -49,19 +49,7 @@ Follow these steps to run the project locally:
 
 ---
 
-## 📂 Project Structure
-Healthcare_Project/
-│── src/
-│   ├── components/   # Reusable UI components (buttons, cards, forms, etc.)
-│   ├── pages/        # Main pages (Dashboard, Doctors, Patients, Appointments)
-│   ├── App.js        # Root React component
-│   └── index.js      # Entry point
-│── public/
-│── package.json
-│── README.md
 
-
----
 
 ## 📌 Future Improvements
 
